@@ -1,0 +1,19 @@
+# ---- Backend framework and API utilities ----
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic>=2.7,<3
+python-dotenv==1.0.1
+
+# ---- AI and LLM inference ----
+anthropic>=0.40.0
+
+# ---- Computer vision and image/video processing ----
+opencv-python-headless==4.10.0.84
+numpy>=1.26
+
+# ---- Data processing and reporting ----
+# sqlite3 and json come from the Python standard library (meal history, reports).
+
+# ---- Audio and multimedia ----
+# Optional and heavy. Install with: pip install -r requirements-audio.txt
